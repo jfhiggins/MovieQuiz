@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/totally80s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/totally_80s" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#76FF03"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:paddingBottom="8dp"
+            android:text="@string/intro"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <!-- QUESTION 1: Name this alien! -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/et" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2.2"
+                android:shadowDy="2.2"
+                android:shadowRadius="2.2"
+                android:text="@string/question1"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question1_radio_alf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question1_choice_alf"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1_radio_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question1_choice_et"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1_radio_yoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question1_choice_yoda"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- QUESTION 2: Who fought for the users? -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/tron" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.2"
+                android:shadowDy="3.2"
+                android:shadowRadius="3.2"
+                android:text="@string/question2"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question2_radio_flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question2_choice_flash"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question2_radio_starfighter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question2_choice_starfighter"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question2_radio_tron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question2_choice_tron"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- QUESTION 3: Who was in the Breakfast Club? -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/breakfast_club"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/breakfast_club" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.2"
+                android:shadowDy="3.2"
+                android:shadowRadius="3.2"
+                android:text="@string/question3"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/question3_choice1_anthony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_anthony" />
+
+        <CheckBox
+            android:id="@+id/question3_choice2_emilio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_emilio" />
+
+        <CheckBox
+            android:id="@+id/question3_choice3_judd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_judd" />
+
+        <CheckBox
+            android:id="@+id/question3_choice4_matthew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_matthew" />
+
+        <CheckBox
+            android:id="@+id/question3_choice5_molly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_molly" />
+
+        <CheckBox
+            android:id="@+id/question3_choice6_rob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_rob" />
+
+        <CheckBox
+            android:id="@+id/question3_choice7_ally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/question3_choice_ally" />
+
+        <!-- QUESTION 4: In War Games, the only winning move is: -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/war_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/war_games" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.2"
+                android:shadowDy="3.2"
+                android:shadowRadius="3.2"
+                android:text="@string/question4"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/question4_answer"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="8dp" />
+
+        <!-- QUESTION 5: Which movie made science cool? -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/real_genius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/real_genius" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2.2"
+                android:shadowDy="2.2"
+                android:shadowRadius="2.2"
+                android:text="@string/question5"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/question5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_choice_science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question5_choice_science"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question5_choice_genius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question5_choice_genius"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question5_choice_nerds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question5_choice_nerds"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- QUESTION 6: Bill & Ted’s … Adventure -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bill_ted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/bill_ted" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.2"
+                android:shadowDy="3.2"
+                android:shadowRadius="3.2"
+                android:text="@string/question6"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/question6_answer"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="8dp" />
+
+        <!-- QUESTION 7: Which movie did NOT involve Steven Spielberg? -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/spielberg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/spielberg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2.2"
+                android:shadowDy="2.2"
+                android:shadowRadius="2.2"
+                android:text="@string/question7"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/question7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question7_choice_goonies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question7_choice_goonies"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question7_choice_raiders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question7_choice_raiders"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question7_choice_labyrinth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question7_choice_labyrinth"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question7_choice_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question7_choice_future"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question7_choice_gremlins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question7_choice_gremlins"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- QUESTION 8: The Last... -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/starfighter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/starfighter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2.2"
+                android:shadowDy="2.2"
+                android:shadowRadius="2.2"
+                android:text="@string/question8"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/question8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question8_choice_hero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question8_choice_hero"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question8_choice_emperor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question8_choice_emperor"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question8_choice_starfighter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question8_choice_starfighter"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- QUESTION 9: 80's horror at the South Pole -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/thing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/thing" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="2.2"
+                android:shadowDy="2.2"
+                android:shadowRadius="2.2"
+                android:text="@string/question9"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/question9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question9_choice_thing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question9_choice_thing"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question9_choice_hellraiser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question9_choice_hellraiser"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question9_choice_reanimator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/question9_choice_reanimator"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- QUESTION 10: There can be only ___" -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/highlander"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/highlander" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.2"
+                android:shadowDy="3.2"
+                android:shadowRadius="3.2"
+                android:text="@string/question10"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/question10_answer"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="8dp" />
+
+
+        <!-- Grade the quiz! -->
+        <Button
+            android:id="@+id/grade_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:onClick="gradeQuiz"
+            android:text="@string/grade_quiz"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

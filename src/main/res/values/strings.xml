@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">Totally 80s Movie Quiz</string>
+    <string name="title">Movie Quiz!</string>
+    <string name="intro">10 questions, 10 awesome movies.</string>
+    <string name="grade_quiz">Grade Quiz</string>
+
+    <string name="question1">Name this alien!</string>
+    <string name="question1_choice_alf">Alf</string>
+    <string name="question1_choice_et">E.T.</string>
+    <string name="question1_choice_yoda">Yoda</string>
+
+    <string name="question2">Who fought for the users?</string>
+    <string name="question2_choice_flash">Flash Gordon</string>
+    <string name="question2_choice_starfighter">The Last Starfighter</string>
+    <string name="question2_choice_tron">Tron</string>
+
+    <string name="question3">Who\'s in the Breakfast Club?</string>
+    <string name="question3_choice_anthony">Anthony Michael Hall</string>
+    <string name="question3_choice_emilio">Emilio Estevez</string>
+    <string name="question3_choice_judd">Judd Nelson</string>
+    <string name="question3_choice_matthew">Matthew Broderick</string>
+    <string name="question3_choice_molly">Molly Ringwald</string>
+    <string name="question3_choice_rob">Rob Lowe</string>
+    <string name="question3_choice_ally">Ally Sheedy</string>
+
+    <string name="question4">The only winning move is:</string>
+
+    <string name="question5">Which 80s classic comedy made science cool?</string>
+    <string name="question5_choice_science">Weird Science</string>
+    <string name="question5_choice_genius">Real Genius</string>
+    <string name="question5_choice_nerds">Revenge of the Nerds</string>
+
+    <string name="question6">Bill \&amp; Ted\'s ____ Adventure</string>
+
+    <string name="question7">Which movie did NOT involve Steven Spielberg?</string>
+    <string name="question7_choice_goonies">The Goonies</string>
+    <string name="question7_choice_raiders">Raiders of the Lost Ark</string>
+    <string name="question7_choice_labyrinth">Labyrinth</string>
+    <string name="question7_choice_future">Back to the Future</string>
+    <string name="question7_choice_gremlins">Gremlins</string>
+
+    <string name="question8">The Last ...</string>
+    <string name="question8_choice_hero">Action Hero</string>
+    <string name="question8_choice_emperor">Emperor</string>
+    <string name="question8_choice_starfighter">Starfighter</string>
+
+    <string name="question9">80\'s horror at the South Pole:</string>
+    <string name="question9_choice_thing">The Thing</string>
+    <string name="question9_choice_hellraiser">Hellraiser</string>
+    <string name="question9_choice_reanimator">Re-animator</string>
+
+    <string name="question10">\"There can be only ___!\"</string>
+
+</resources>
